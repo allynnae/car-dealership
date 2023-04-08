@@ -1,8 +1,8 @@
 /**
  *   @file: car-dealer.cc
- * @author: Enter your name
- *   @date: Enter the date
- *  @brief: Add Description
+ * @author: Allison McKee
+ *   @date: 04-05-2023
+ *  @brief: Car Dealer
  */
 
 #include <iostream>
