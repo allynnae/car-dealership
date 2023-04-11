@@ -128,7 +128,8 @@ void displayOptions(ifstream &inStream, double &price, char model, string &optio
     string line;
     int option_price;
     string car_option;
-    bool modelSelected = false; // added flag to track if model is selected
+    bool modelSelected = false; 
+
     // read the file line by line
     while (getline(inStream, line)) 
     {
@@ -149,7 +150,7 @@ void displayOptions(ifstream &inStream, double &price, char model, string &optio
     if (model != ' ') // check if model is not empty
     {
         cout << "\nModel: " << model << ", $" << price << ", Options: " << option << endl;
-        modelSelected = true; // set flag to true if model is selected
+        modelSelected = true;
     }
 
     if (!modelSelected) // if model is not selected, display "NO MODEL SELECTED"
